@@ -20,8 +20,6 @@ To use this template out of the box, you will need on your local machine the fol
 - Docker and Docker Desktop (or equivalent)
 - Docker Hub account
 
-A step-by-step guide for setting the above prerequisites is available here:
-https://github.com/RamiKrispin/vscode-python/tree/main#prerequisites
 
 ## Clone the Template
 
