@@ -1,6 +1,6 @@
 {
     "name": "python-dev",
-    "image": "docker.io/rkrispin/python-dev:arm64.0.2.2",
+    "image": "docker.io/bulentsoykan/python-dev:arm64.0.2.2",
     "customizations": {
         "vscode": {
             "settings": {
@@ -40,10 +40,7 @@
             ]
         }
     },
-    // Optional, local zsh history:
-    "mounts": [
-        "source=${localEnv:HOME}/.zsh_history_dev,target=/root/.zsh_history,type=bind,consistency=cache"
-    ],
+
     // Optional set environment variables:
     "remoteEnv": {
         "MY_VAR": "${localEnv:MY_VAR:test_var}"

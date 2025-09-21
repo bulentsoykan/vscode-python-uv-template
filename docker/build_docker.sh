@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Image settings
-user_name=rkrispin
+user_name=bulentsoykan
 image_label=python-dev
 image_tag=0.2.2
 quarto_ver="1.7.32"
@@ -19,7 +19,7 @@ else
 fi
 
 tag="$CPU.$image_tag"
-image_name="rkrispin/$image_label:$tag"
+image_name="bulentsoykan/$image_label:$tag"
 
 
 
